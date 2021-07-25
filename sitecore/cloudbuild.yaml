@@ -5,7 +5,7 @@ steps:
   args:
   - '-c'
   - |
-      cd bigquery/
+      cd sitecore/bigquery/
       terraform init
       terraform plan
       terraform apply -auto-approve
@@ -16,7 +16,7 @@ steps:
   args:
   - '-c'
   - |
-      cd pubsub/
+      cd sitecore/pubsub/
       terraform init
       terraform plan
       terraform apply -auto-approve
@@ -28,7 +28,7 @@ steps:
   args:
   - '-c'
   - |
-      cd storage/
+      cd sitecore/storage/
       terraform init
       terraform plan
       terraform apply -auto-approve
@@ -40,7 +40,7 @@ steps:
   args:
   - '-c'
   - |
-      cd cloudfunction/
+      cd sitecore/cloudfunction/
       terraform init
       terraform plan
       terraform apply -auto-approve
