@@ -7,5 +7,5 @@ resource "google_cloudfunctions_function" "function" {
   source_archive_bucket = var.archive_bucket
   source_archive_object = var.archive_object
   trigger_http          = true
-  entry_point           = "helloworld"
+  entry_point           = "hello_world"
 }
