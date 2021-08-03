@@ -23,7 +23,7 @@ lifecycle_age_one = 30
 lifecycle_action_one = "SetStorageClass"
 lifecycle_storage_class_one = "COLDLINE"
 
-lifecycle_age_one = 90
-lifecycle_action_one = "SetStorageClass"
-lifecycle_storage_class_one = "ARCHIVE"
+lifecycle_age_two = 90
+lifecycle_action_two = "SetStorageClass"
+lifecycle_storage_class_two = "ARCHIVE"
 
