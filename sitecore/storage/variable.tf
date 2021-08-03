@@ -61,3 +61,28 @@ variable "staging_folder_content" {
     default = "Sample content"
     type = string
 }
+
+variable "bucketlocation" {
+    description = "Storage location of bucket"
+    default = "US"
+    type = string
+}
+
+variable "force_destroy" {
+    description = "Destroying contents of bucket on destroy"
+    type = boolean
+    default = true
+}
+
+variable "versioning_enabled" {
+    description = "Versioning option for bucket"
+    type = boolean
+    default = true
+}
+
+variable "lifecycle_age_one" {}
+variable "lifecycle_action_one" {}
+variable "lifecycle_storage_class_one" {}
+variable "lifecycle_age_two" {}
+variable "lifecycle_action_two" {}
+variable "lifecycle_storage_class_two" {}
