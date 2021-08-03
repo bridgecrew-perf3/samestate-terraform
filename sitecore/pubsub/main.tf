@@ -17,5 +17,5 @@ module "pubsub" {
     retry_policy_minimum_backoff = var.retry_policy_minimum_backoff
     retry_policy_maximum_backoff = var.retry_policy_maximum_backoff
     enable_message_ordering = var.enable_message_ordering
-
+    ack_deadline_seconds = var.ack_deadline_seconds
 }
