@@ -57,3 +57,5 @@ variable "enable_message_ordering" {
     description = "Option to enable message ordering for subscriber"
     default = false
 }
+
+variable "ack_deadline_seconds" {}
