@@ -22,3 +22,6 @@ abctablename = "sitecore_deliver_land_abc_framework"
 errortablename = "sitecore_deliver_land_exception_error_events"
 expiration_time = null
 
+ingest_dataset_id = "sitecore_ingest"
+ingest_friendly_name = "sitecore_ingest"
+
