@@ -22,5 +22,12 @@ module "bq" {
     expiration_time = var.expiration_time
     abcschema = var.abcschema
     errorschema = var.errorschema
+    
+    ingest_dataset_id = var.ingest_dataset_id
+    ingest_friendly_name = var.ingest_friendly_name
+    validtablename = var.validtablename
+    invalidtablename = var.invalidtablename
+    currenttablename = var.currenttablename
+    previoustablename = var.previoustablename
 
 }
