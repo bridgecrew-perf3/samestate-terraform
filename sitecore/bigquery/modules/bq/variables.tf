@@ -231,3 +231,27 @@ variable "ingest_friendly_name" {
     type = string
     default = "sitecore_ingest"
 }
+
+variable "validtablename" {
+    description = "Valid table name"
+    type = string
+    default = "sitecore_deliver_land_valid_records"
+}
+
+variable "invalidtablename" {
+    description : "Invalid table name"
+    type = string
+    default = "sitecore_deliver_land_invalid_records"
+}
+
+variable "currenttablename" {
+    description : "Current table name"
+    type = string
+    default = "sitecore_ingest_land_current"
+}
+
+variable "previoustablename" {
+    description : "Current table name"
+    type = string
+    default = "sitecore_ingest_land_previous"
+}
