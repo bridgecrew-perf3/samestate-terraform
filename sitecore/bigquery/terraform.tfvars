@@ -24,4 +24,8 @@ expiration_time = null
 
 ingest_dataset_id = "sitecore_ingest"
 ingest_friendly_name = "sitecore_ingest"
+validtablename = "sitecore_deliver_land_valid_records"
+invalidtablename = "sitecore_deliver_land_invalid_records"
+currenttablename = "sitecore_ingest_land_current"
+previoustablename = "sitecore_ingest_land_previous"
 
