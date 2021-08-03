@@ -70,13 +70,11 @@ variable "bucketlocation" {
 
 variable "force_destroy" {
     description = "Destroying contents of bucket on destroy"
-    type = boolean
     default = true
 }
 
 variable "versioning_enabled" {
     description = "Versioning option for bucket"
-    type = boolean
     default = true
 }
 
