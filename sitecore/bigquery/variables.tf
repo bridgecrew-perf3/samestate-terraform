@@ -224,3 +224,15 @@ variable "errorschema" {
 ]
 EOF
 }
+
+variable "ingest_dataset_id" {
+    description = "Name of ingest dataset"
+    type = string
+    default = "sitecore_ingest"
+}
+
+variable "ingest_friendly_name" {
+    description = "Friendly name for ingest dataset"
+    type = string
+    default = "sitecore_ingest"
+}
