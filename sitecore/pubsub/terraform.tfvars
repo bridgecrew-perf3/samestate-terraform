@@ -15,3 +15,5 @@ expiration_policy_ttl = "2678400s"
 retry_policy_minimum_backoff = "10s"
 retry_policy_maximum_backoff = "600s"
 enable_message_ordering = false
+
+ack_deadline_seconds = 20
