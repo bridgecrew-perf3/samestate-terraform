@@ -244,19 +244,19 @@ variable "validtablename" {
 }
 
 variable "invalidtablename" {
-    description : "Invalid table name"
+    description = "Invalid table name"
     type = string
     default = "sitecore_deliver_land_invalid_records"
 }
 
 variable "currenttablename" {
-    description : "Current table name"
+    description = "Current table name"
     type = string
     default = "sitecore_ingest_land_current"
 }
 
 variable "previoustablename" {
-    description : "Current table name"
+    description = "Previous table name"
     type = string
     default = "sitecore_ingest_land_previous"
 }
