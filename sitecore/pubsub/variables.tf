@@ -66,6 +66,5 @@ variable "retry_policy_maximum_backoff" {
 
 variable "enable_message_ordering" {
     description = "Option to enable message ordering for subscriber"
-    type = boolean
     default = false
 }
