@@ -20,7 +20,7 @@ variable "allowed_persistence_regions" {
 
 variable "subscription_name" {
     description = "name of pubsub subscription"
-    type = "string"
+    type = string
     default = "SITECORE_INGEST_PUSHDATAFLOW"
 }
 
@@ -32,7 +32,6 @@ variable "message_retention_duration" {
 
 variable "retain_acked_messages" {
     description = "Retain acked messages for subscriber"
-    type = boolean
     default = true
 }
 
@@ -56,6 +55,5 @@ variable "retry_policy_maximum_backoff" {
 
 variable "enable_message_ordering" {
     description = "Option to enable message ordering for subscriber"
-    type = boolean
     default = false
 }
